@@ -1,11 +1,10 @@
-,,,,,
-,pl_mot_spd,pl_vlv,pl_vlv_an,pl_mot,pl_vlv_mot
+,motor,motor_speed,valve,valve_analog,valve_motor
 0,aut_mod_op,aut_mod_op,aut_mod_op,aut_mod_op,aut_mod_op
 1,man_mod_op,man_mod_op,man_mod_op,man_mod_op,man_mod_op
 2,local_op,local_op,local_op,local_op,local_op
 3,oos_op,oos_op,oos_op,oos_op,oos_op
-4,stop_man,close_man,---,stop_man,stop_man
-5,fwd_man,open_man,---,start_man,open_man
-6,rev_man,---,---,---,close_man
-7,reset,,,,
+4,stop_man,stop_man,close_man,---,stop_man
+5,start_man,fwd_man,open_man,---,open_man
+6,---,rev_man,---,---,close_man
+7,,reset,,,
 8,,,,,

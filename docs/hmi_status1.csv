@@ -1,17 +1,16 @@
-,,,,,
-,pl_mot_spd,pl_vlv,pl_mot,pl_mon_di,pl_vlv_mot
-0,aut_act,aut_act,aut_act,,aut_act
-1,man_act,man_act,man_act,,man_act
-2,local_act,local_act,local_act,,local_act
-3,oos_act,oos_act,oos_act,,oos_act
-4,motor is stoppped,valve closed,motor is stopped,out = 1,valve stopped
-5,motor starts in forward mode,valve opens,motor starts,,valve opening
-6,motor runs in forward mode,valve opened,motor runs,,valve opened
-7,motor stops in forward mode,valve closes,motor stops,,
-8,motor starts in reverse mode,---,---,,valve closing
-9,motor runs in reverse mode,---,---,,valve closed
-10,motor stops in reverse mode,---,---,,
-11,error state,error state,error state,,error state
-12,command for stop,command for close,command for stop,,command for stop
-13,command for starting in forward mode,command for opening,command for starting,,command for opening
-14,command for starting in reverse mode,---,---,,command for closing
+,monitor_di,motor,motor_spd,valve,valve_analog,valve_motor
+0,,aut_act,aut_act,aut_act,aut_act,aut_act
+1,,man_act,man_act,man_act,man_act,man_act
+2,,local_act,local_act,local_act,local_act,local_act
+3,,oos_act,oos_act,oos_act,oos_act,oos_act
+4,out = 1,motor is stopped,motor is stoppped,valve closed,valve closed,valve stopped
+5,,motor starts,motor starts in forward mode,valve opens,valve opens,valve opening
+6,,motor runs,motor runs in forward mode,valve opened,valve opened,valve opened
+7,,motor stops,motor stops in forward mode,valve closes,valve closes,
+8,,---,motor starts in reverse mode,---,,valve closing
+9,,---,motor runs in reverse mode,---,,valve closed
+10,,---,motor stops in reverse mode,---,,
+11,,error state,error state,error state,error state,error state
+12,,command for stop,command for stop,command for close,,command for stop
+13,,command for starting,command for starting in forward mode,command for opening,,command for opening
+14,,---,command for starting in reverse mode,---,,command for closing
